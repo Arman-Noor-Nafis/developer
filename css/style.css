@@ -1,0 +1,110 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner start */
+.banner{
+    display: flex;
+    margin-bottom: 415px;
+}
+.half-width{
+    width: 50%;
+}
+.padding{
+    padding: 3%;
+}
+.half-width h1{
+    font-size: 45px;
+}
+.half-width h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.half-width p{
+    margin-bottom: 10px;
+}
+.half-width a{
+    background-color:#E55B3C;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+.half-width a:hover{
+    background-color:#FF6347;
+}
+.half-width img{
+    width: 90%;
+    padding: 40px;
+    transition: 0.3s;
+}
+.half-width img:hover{
+    margin-top: 30px;
+}
+.Light_orange{
+    color:#E67451;
+}
+/* banner end */
+
+/* big dream start */
+.big-dream{
+    display: flex;
+    margin-bottom: 415px;
+}
+.big-dream h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#E67451;
+}
+.content{
+    padding-top: 30px;
+}
+/* big dream end */
+
+/* experiences start */
+.experiences{
+    display: flex;
+    margin-bottom: 130px;
+}  
+.developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 20px;
+    margin-top: 10px;
+    border-left: 8px solid #C24641;
+    transition: 0.3s;
+}
+.developer:hover{
+    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
+} 
+.developer h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+} 
+.developer h3{
+    margin-bottom: 30px;
+    color:#FF8040;
+    font-size: 25px;
+}
+.border{
+    border-left: 8px solid #E55B3C ;
+}
+/* experiences end */
+
+/* footer start */
+footer{
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+/* footer end */
