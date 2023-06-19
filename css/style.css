@@ -13,6 +13,9 @@ background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, F
     display: flex;
     margin-bottom: 415px;
 }
+.banner p{
+    color: white;
+}
 .half-width{
     width: 50%;
 }
